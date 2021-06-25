@@ -120,7 +120,6 @@ EOF
 
 get_kernel(){
 	KERNEL_FOLDER_NAME=$(echo ${KERNEL_VERSION/+o/-o})
-	echo ${KERNEL_FOLDER_NAME}
 	svn co ${KERNEL_URL}/${KERNEL_FOLDER_NAME}/kernel  >/dev/null 2>&1
 	cp -r kernel/* /opt/kernel
 }
