@@ -123,7 +123,8 @@ EOF
 get_kernel(){
         KERNEL_FOLDER_NAME=$(echo ${KERNEL_VERSION/+o/-o})
         KERNEL_FOLDER_NAME=$(echo ${KERNEL_FOLDER_NAME} | sed 's/+//g')
-	sudo rm -rf  ${KERNEL_URL}/${KERNEL_FOLDER_NAME}/kernel/*
+	sudo rm -rf  kernel
+	sudo rm -rf  .svn
         svn co ${KERNEL_URL}/${KERNEL_FOLDER_NAME}/kernel  # >/dev/null 2>&1
         cp -r kernel/* /opt/kernel
 }
