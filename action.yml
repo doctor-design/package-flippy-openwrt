@@ -5,7 +5,7 @@ inputs:
   types:
     description: 'The type of the drive'
     required: true
-    default: s905d
+    default: s905d,s905x3,vplus,beikeyun,l1pro
   openwrt-version:
     description: 'The openwrt version'
     required: false
