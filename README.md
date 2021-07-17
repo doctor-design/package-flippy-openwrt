@@ -23,10 +23,10 @@
 
 # Usage the aciton
 
-
+```
  name: Package OpenWrt with flippy script
   # You may pin to the exact commit or the version.
-  uses: doctor-design/package-flippy-openwrt@main
+  uses: mingxiaoyu/package-flippy-openwrt@main
   with:
     # The type of the drive
     types: # optional, default is s905d
@@ -44,7 +44,7 @@
     openwrt-url: # optional
     # add the sub name in file: xxxx-xx-{sub-name}.img.gz
     sub-name: # optional
- ```
+ 
  simple
  ```
  name: Package OpenWrt with flippy script
