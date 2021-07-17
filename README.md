@@ -27,8 +27,7 @@
 
 # 使用方法
 
-v2.0 和 main 使用TypeScript编译。.
-这个版本可以设置内核版本为：直接写版本号（+版,例如：5.13.2-flippy-62+）和Laster(+o版)
+设置内核版本为：直接写版本号（+版,例如：5.13.2-flippy-62+）和Laster(+o版)
 ```
  name: Package OpenWrt with flippy script
   # You may pin to the exact commit or the version.
