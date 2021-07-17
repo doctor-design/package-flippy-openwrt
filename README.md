@@ -45,6 +45,7 @@
     # add the sub name in file: xxxx-xx-{sub-name}.img.gz
     sub-name: # optional
  
+ ```
  simple
  ```
  name: Package OpenWrt with flippy script
@@ -56,3 +57,4 @@
     # The input path/ulr of the openwrt
     openwrt-path/openwrt-url: # optional
  ```
+ 
