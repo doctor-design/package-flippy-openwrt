@@ -1,4 +1,4 @@
-通过Flippy脚本对Arm软路由进行OpenWrt进行打包
+通过Flippy脚本对Arm软路由OpenWrt进行打包
 
 
 [![unifreq](https://img.shields.io/badge/kernel-unifreq-blue.svg?style=flat-square&logo=telegram)](https://t.me/openwrt_flippy) 
