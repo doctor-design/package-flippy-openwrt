@@ -60,3 +60,10 @@
     # openwrt-path和openwrt-url必须设置一个。 openwrt-path ：xxxx  openwrt-url:https://xxxxx
     openwrt-path/openwrt-url: # optional
  ```
+
+
+# 感谢
+ 
+ * [flippy](https://github.com/unifreq/openwrt_packit)
+ * [mingxiaoyu](https://github.com/mingxiaoyu/package-flippy-openwrt)
+
