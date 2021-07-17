@@ -49,9 +49,10 @@
  ```
  name: Package OpenWrt with flippy script
   # You may pin to the exact commit or the version.
-  uses: doctor-design/package-flippy-openwrt@main
+  uses: mingxiaoyu/package-flippy-openwrt@main
   with:
     # The type of the drive
     types: # optional, default is s905d
     # The input path/ulr of the openwrt
     openwrt-path/openwrt-url: # optional
+ ```
