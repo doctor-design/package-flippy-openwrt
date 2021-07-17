@@ -1,5 +1,6 @@
 # package-flippy-openwrt
 
+
 # Parameters
 
 | Inputs | Type |Description | Value |
@@ -13,7 +14,7 @@
 |openwrt-url| String | The url of the openwrt|  Default is null. openwrt-path or openwrt-url should have one.  |
 |sub-name |  String | add the sub name in file: xxxx-xx-{sub-name}.img.gz| Default is null |
     
- kernel-version check in [flippy-packages](https://github.com/mingxiaoyu/flippy-packages)   
+ kernel-version check in [flippy-packages](https://github.com/doctor-design/flippy-packages)   
  types: plus,beikeyun,l1pro,s905,s905d,s905x2,s905x3,s912,s922x.
  
 | OutPuts | Type | Description | Value |
@@ -22,11 +23,10 @@
 
 # Usage the aciton
 
-v2.0 and main is the version of nodejs.The kernel-version's value can set Laster+o.
-```
+
  name: Package OpenWrt with flippy script
   # You may pin to the exact commit or the version.
-  uses: mingxiaoyu/package-flippy-openwrt@main
+  uses: doctor-design/package-flippy-openwrt@main
   with:
     # The type of the drive
     types: # optional, default is s905d
@@ -49,7 +49,7 @@ v2.0 and main is the version of nodejs.The kernel-version's value can set Laster
  ```
  name: Package OpenWrt with flippy script
   # You may pin to the exact commit or the version.
-  uses: mingxiaoyu/package-flippy-openwrt@main
+  uses: doctor-design/package-flippy-openwrt@main
   with:
     # The type of the drive
     types: # optional, default is s905d
