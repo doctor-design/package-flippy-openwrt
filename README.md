@@ -64,6 +64,6 @@
 
 # 感谢
  
- * [flippy](https://github.com/unifreq/openwrt_packit)
  * [mingxiaoyu](https://github.com/mingxiaoyu/package-flippy-openwrt)
+ * [flippy](https://github.com/unifreq/openwrt_packit)
 
