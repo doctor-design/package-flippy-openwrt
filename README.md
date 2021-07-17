@@ -5,7 +5,7 @@
 | Inputs | Type |Description | Value |
 | --- | --- | --- |--- |
 | types           | String | The type of the drive |   Default is s905d.  Multi version compilation: s905d,s905x2.        |
-| openwrt-version | String | The openwrt version  |  Default is R21.4.18    |
+| openwrt-version | String | The openwrt version  |  Default is R21.7.15    |
 |kernel-version| String | The kernel version | Default is Latest |
 |whoami|  String | The name of build the openwrt | Default is mingxiaoyu|
 |out| String | The output path of the openwrt  | Default is /out |
