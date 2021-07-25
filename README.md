@@ -11,7 +11,7 @@
 | --- | --- | --- |--- |
 | types           | String | 需要打包的设备类型 (必填)|   默认值： s905d.  打包多个设备: s905d,s905x2.  分隔符为 ,      |
 | openwrt-version | String | OpenWrt版本  |  默认值：null   |
-|kernel-version| String | 内核版本 | 默认值： Latest ： +o的最新版.  +版 ： 内核版本号(例如:5.13.4-flippy-62+) |
+|kernel-version| String | 内核版本 | 默认值：+o版: Latest或空. +版：版本号全名(例如:5.13.4-flippy-62+) |
 |whoami|  String | 谁打包 | 默认值： mingxiaoyu|
 |out| String | 镜像的输出地址  | 默认值： /out |
 |openwrt-path| String | OpenWrt的路径 |   默认值： null. openwrt-path和openwrt-url必须有一个。两个都存在时，优先openwrt-path |
