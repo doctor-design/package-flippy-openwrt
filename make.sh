@@ -65,7 +65,7 @@ if [ -z $TYPES ];then
     TYPES="n1"
 fi
 if [ -z $OPENWRT_VERSION ];then
-	OPENWRT_VERSION="R21.7.15"
+	OPENWRT_VERSION="R21.7.26"
 fi
 if [ -z $KERNEL_VERSION ];then
     KERNEL_VERSION="Latest"
