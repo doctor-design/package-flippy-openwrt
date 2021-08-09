@@ -9,7 +9,7 @@ inputs:
   openwrt-version:
     description: 'The openwrt version'
     required: false
-    default: R21.7.26
+    default: R21.8.6
   kernel-version:
     description: 'The kernel version'
     required: false
