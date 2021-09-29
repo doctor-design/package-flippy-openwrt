@@ -135,11 +135,21 @@ function check_k510() {
 
 check_k510
 
+# 5.4内核是否启用wifi 1:启用 0.禁用
 ENABLE_WIFI_K504=1
+
+# 5.10(及以上)内核是否启用wifi  1:启用 0:禁用
 ENABLE_WIFI_K510=0
+
+# 默认是否开启软件FLOWOFFLOAD
 SW_FLOWOFFLOAD=1
+# 默认是否开启硬件FLOWOFFLOAD
 HW_FLOWOFFLOAD=0
+
+# 默认是否开启SFE
 SFE_FLOW=1
+
+# 如果开启了 flowoffload， 或内核版本 >= 5.10, 则默认强制关闭 sfe
 if [ ${SW_FLOWOFFLOAD} -eq 1 ] || [ $K510 -eq 1 ];then
     SFE_FLOW=0
 fi
